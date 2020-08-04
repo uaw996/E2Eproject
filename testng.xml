@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+<listeners>
+<listener class-name="MyFirstProject.Listeners"></listener>
+</listeners>
+  <test name="Validating userLogin">
+    <classes>
+      <class name="MyFirstProject.HomePage"/>
+       </classes>
+  </test>
+      
+      <test name="Validating Title">
+    <classes>
+     <class name="MyFirstProject.ValidateTitle"/>
+      </classes>
+  </test>
+     <test name="Validating Navigation">
+    <classes>
+     <class name="MyFirstProject.ValidateNavigation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

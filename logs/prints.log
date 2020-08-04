@@ -1,0 +1,3 @@
+14:13:35.801 [main] INFO  MyFirstProject.ValidateNavigation - driver initialization
+14:13:55.145 [main] INFO  MyFirstProject.ValidateNavigation - url launch
+14:14:04.971 [main] DEBUG MyFirstProject.ValidateNavigation - Click login button

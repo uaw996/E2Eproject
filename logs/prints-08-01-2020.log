@@ -1,0 +1,7 @@
+19:01:10.864 [main] INFO  MyFirstProject.ValidateNavigation - url launch
+19:01:13.657 [main] DEBUG MyFirstProject.ValidateNavigation - Click login button
+19:01:14.258 [main] DEBUG MyFirstProject.ValidateNavigation - Click on submit button
+19:01:14.572 [main] INFO  MyFirstProject.ValidateNavigation - window closed successfully
+19:01:23.046 [main] INFO  MyFirstProject.ValidateTitle - initialization driver
+19:01:40.521 [main] INFO  MyFirstProject.ValidateTitle - url launch
+19:01:43.475 [main] INFO  MyFirstProject.ValidateTitle - driver close successfuly
