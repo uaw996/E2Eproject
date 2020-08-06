@@ -23,15 +23,15 @@ public class ValidateTitle extends base {
 		
 		driver = initializerDriver();
 		log.info("initialization driver");
-		driver.get(prop.getProperty("url"));
-		log.info("url launch");
+		
 	
 	}
 
 	
 	@Test()
 	public void courseNameTest() throws IOException {
-
+		driver.get(prop.getProperty("url"));
+		log.info("url launch");
 			
 		//there are two ways to call class 
 		//1. by inheritance
@@ -40,18 +40,12 @@ public class ValidateTitle extends base {
 		LandingPage l = new LandingPage(driver);
 	   
 		
-	    Assert.assertEquals( l.getTitle().getText(), "FEATURED 12COURSES");
+	    Assert.assertEquals( l.getTitle().getText(), "FEATURED COURSES");
 	    log.debug("succecfully validate");
 	}
 	
 
-	@AfterTest
-	public void tearDown() {
-		
-		driver.close();
-		log.info("driver close successfuly");
-		
-	}
+	
 
 	
 	}

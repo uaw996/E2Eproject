@@ -45,11 +45,11 @@ public class ValidateNavigation extends base {
 	}
 	
 
-	@AfterTest
-	public void tearDown() {
-		
-		driver.close();
-		log.info("window closed successfully");
-	}
+//	@AfterTest
+//	public void tearDown() {
+//		
+//		driver.close();
+//		log.info("window closed successfully");
+//	}
 
 	}

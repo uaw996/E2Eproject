@@ -17,6 +17,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.io.FileHandler;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterTest;
 
 
 
@@ -67,6 +69,13 @@ if(browserName.equals("IE")) {
 			return destinationFile;
 		
 	} 
+		@AfterClass
+		public void tearDown() {
+			
+			driver.close();
+//			log.info("driver close successfuly");
+			
+		}
 	
 	
 	
