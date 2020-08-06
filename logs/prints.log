@@ -1,4 +1,4 @@
-10:40:41.808 [main] DEBUG MyFirstProject.ValidateTitle - succecfully validate
-10:40:50.173 [main] INFO  MyFirstProject.ValidateNavigation - driver initialization
-10:41:05.904 [main] INFO  MyFirstProject.ValidateNavigation - url launch
-10:41:06.100 [main] DEBUG MyFirstProject.ValidateNavigation - successfully navigation button Displayed
+17:49:20.990 [main] INFO  MyFirstProject.ValidateTitle - url launch
+17:49:31.121 [main] INFO  MyFirstProject.ValidateNavigation - driver initialization
+17:49:41.796 [main] INFO  MyFirstProject.ValidateNavigation - url launch
+17:49:41.916 [main] DEBUG MyFirstProject.ValidateNavigation - successfully navigation button Displayed

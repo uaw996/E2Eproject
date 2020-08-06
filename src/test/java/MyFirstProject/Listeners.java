@@ -44,7 +44,7 @@ public class Listeners extends base implements ITestListener {
 		} 
 		try {
 			
-			extentTest.get().addScreenCaptureFromPath(System.getProperty(getScreenshotPath(testMethodName, driver), result.getMethod().getMethodName()));
+			extentTest.get().addScreenCaptureFromPath(System.getProperty(getScreenShotPath(testMethodName, driver), result.getMethod().getMethodName()));
 			
 //			getScreenShotPath(testMethodName ,driver);
 		} catch (IOException e) {
@@ -53,10 +53,8 @@ public class Listeners extends base implements ITestListener {
 		}
 	}
 
-	private String getScreenshotPath(String testMethodName, WebDriver driver) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	
+	
 
 	public void onTestSkipped(ITestResult result) {
 	
