@@ -18,22 +18,23 @@ public class Listeners extends base implements ITestListener {
 	ExtentTest test;
 	//ExtentReports extent;
 	ExtentReports	extent=  ExtendReporterNG.getReportObject();
+	ThreadLocal<ExtentTest> extentTest = new ThreadLocal<ExtentTest>();
 	public void onTestStart(ITestResult result) {
 	
 	    
 		test =  extent.createTest(result.getMethod().getMethodName());
-		
+		extentTest.set(test);
 	}
 
 	public void onTestSuccess(ITestResult result) {
 		
-		test.log(Status.PASS, "Test Passed");
+		extentTest.get().log(Status.PASS, "Test Passed");
 	}
 
 	public void onTestFailure(ITestResult result) {
 	
 		WebDriver driver = null;
-		test.fail(result.getThrowable());
+		extentTest.get().fail(result.getThrowable());
 		String testMethodName = result.getMethod().getMethodName();
 		try {
 			driver =(WebDriver)result.getTestClass().getRealClass().getDeclaredField("driver").get(result.getInstance());
@@ -42,11 +43,19 @@ public class Listeners extends base implements ITestListener {
 			e1.printStackTrace();
 		} 
 		try {
-			getScreenShotPath(testMethodName ,driver);
+			
+			extentTest.get().addScreenCaptureFromPath(System.getProperty(getScreenshotPath( testMethodName, driver), result.getMethod().getMethodName()));
+			
+//			getScreenShotPath(testMethodName ,driver);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+
+	private String getScreenshotPath(String testMethodName, WebDriver driver) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	public void onTestSkipped(ITestResult result) {

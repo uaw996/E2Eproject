@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -52,17 +54,17 @@ if(browserName.equals("IE")) {
 		return driver;
 	}
 		
-		public void getScreenShotPath(String testCaseName, WebDriver driver) throws IOException {
+		public String getScreenShotPath(String testCaseName, WebDriver driver) throws IOException {
 //			File source = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 			// you can also write above statement 
-		
+			String dateName = new SimpleDateFormat("hh mm ss").format(new Date());
 			TakesScreenshot ts=(TakesScreenshot)driver;
 			File source =  ts.getScreenshotAs(OutputType.FILE);
-			String destinationFile = System.getProperty("user.dir")+"\\screenShots\\"+testCaseName+".png";
+			String destinationFile = System.getProperty("user.dir")+"\\screenShots\\"+testCaseName+""+dateName+".png";
 			 
 			 FileHandler.copy(source,new File(destinationFile));
-//		  return destinationFile;
-			
+
+			return destinationFile;
 		
 	} 
 	
