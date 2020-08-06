@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="61436" started-at="2020-08-06T10:23:24 IST" finished-at="2020-08-06T10:24:25 IST">
+  <suite name="Suite" duration-ms="98234" started-at="2020-08-06T10:39:28 IST" finished-at="2020-08-06T10:41:06 IST">
     <groups>
     </groups>
-    <test name="Validating userLogin" duration-ms="25608" started-at="2020-08-06T10:23:24 IST" finished-at="2020-08-06T10:23:50 IST">
+    <test name="Validating userLogin" duration-ms="35569" started-at="2020-08-06T10:39:28 IST" finished-at="2020-08-06T10:40:03 IST">
       <class name="MyFirstProject.HomePage">
-        <test-method status="PASS" signature="initilization()[pri:0, instance:MyFirstProject.HomePage@1e1a0406]" name="initilization" is-config="true" duration-ms="8356" started-at="2020-08-06T10:23:24 IST" finished-at="2020-08-06T10:23:32 IST">
+        <test-method status="PASS" signature="initilization()[pri:0, instance:MyFirstProject.HomePage@1e1a0406]" name="initilization" is-config="true" duration-ms="15269" started-at="2020-08-06T10:39:28 IST" finished-at="2020-08-06T10:39:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:MyFirstProject.HomePage@1e1a0406]" name="basePageNavigation" duration-ms="13134" started-at="2020-08-06T10:23:32 IST" data-provider="getData" finished-at="2020-08-06T10:23:46 IST">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:MyFirstProject.HomePage@1e1a0406]" name="basePageNavigation" duration-ms="15628" started-at="2020-08-06T10:39:43 IST" data-provider="getData" finished-at="2020-08-06T10:39:59 IST">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:MyFirstProject.HomePage@1e1a0406]" name="basePageNavigation" duration-ms="3810" started-at="2020-08-06T10:23:46 IST" data-provider="getData" finished-at="2020-08-06T10:23:49 IST">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:MyFirstProject.HomePage@1e1a0406]" name="basePageNavigation" duration-ms="4286" started-at="2020-08-06T10:39:59 IST" data-provider="getData" finished-at="2020-08-06T10:40:03 IST">
           <params>
             <param index="0">
               <value>
@@ -43,39 +43,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:MyFirstProject.HomePage@1e1a0406]" name="tearDown" is-config="true" duration-ms="244" started-at="2020-08-06T10:23:49 IST" finished-at="2020-08-06T10:23:50 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MyFirstProject.HomePage@1e1a0406]" name="tearDown" is-config="true" duration-ms="295" started-at="2020-08-06T10:40:03 IST" finished-at="2020-08-06T10:40:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- MyFirstProject.HomePage -->
     </test> <!-- Validating userLogin -->
-    <test name="Validating Title" duration-ms="16148" started-at="2020-08-06T10:23:50 IST" finished-at="2020-08-06T10:24:06 IST">
+    <test name="Validating Title" duration-ms="37470" started-at="2020-08-06T10:40:04 IST" finished-at="2020-08-06T10:40:42 IST">
       <class name="MyFirstProject.ValidateTitle">
-        <test-method status="PASS" signature="initilization()[pri:0, instance:MyFirstProject.ValidateTitle@273e7444]" name="initilization" is-config="true" duration-ms="5635" started-at="2020-08-06T10:23:50 IST" finished-at="2020-08-06T10:23:56 IST">
+        <test-method status="PASS" signature="initilization()[pri:0, instance:MyFirstProject.ValidateTitle@273e7444]" name="initilization" is-config="true" duration-ms="9745" started-at="2020-08-06T10:40:04 IST" finished-at="2020-08-06T10:40:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method status="PASS" signature="courseNameTest()[pri:0, instance:MyFirstProject.ValidateTitle@273e7444]" name="courseNameTest" duration-ms="10368" started-at="2020-08-06T10:23:56 IST" finished-at="2020-08-06T10:24:06 IST">
+        <test-method status="PASS" signature="courseNameTest()[pri:0, instance:MyFirstProject.ValidateTitle@273e7444]" name="courseNameTest" duration-ms="27069" started-at="2020-08-06T10:40:14 IST" finished-at="2020-08-06T10:40:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- courseNameTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:MyFirstProject.ValidateTitle@273e7444]" name="tearDown" is-config="true" duration-ms="144" started-at="2020-08-06T10:24:06 IST" finished-at="2020-08-06T10:24:06 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MyFirstProject.ValidateTitle@273e7444]" name="tearDown" is-config="true" duration-ms="649" started-at="2020-08-06T10:40:41 IST" finished-at="2020-08-06T10:40:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- MyFirstProject.ValidateTitle -->
     </test> <!-- Validating Title -->
-    <test name="Validating Navigation" duration-ms="18927" started-at="2020-08-06T10:24:06 IST" finished-at="2020-08-06T10:24:25 IST">
+    <test name="Validating Navigation" duration-ms="23876" started-at="2020-08-06T10:40:42 IST" finished-at="2020-08-06T10:41:06 IST">
       <class name="MyFirstProject.ValidateNavigation">
-        <test-method status="PASS" signature="initilization()[pri:0, instance:MyFirstProject.ValidateNavigation@3f6f6701]" name="initilization" is-config="true" duration-ms="18306" started-at="2020-08-06T10:24:06 IST" finished-at="2020-08-06T10:24:25 IST">
+        <test-method status="PASS" signature="initilization()[pri:0, instance:MyFirstProject.ValidateNavigation@3f6f6701]" name="initilization" is-config="true" duration-ms="23207" started-at="2020-08-06T10:40:42 IST" finished-at="2020-08-06T10:41:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method status="PASS" signature="cantactbtnTest()[pri:0, instance:MyFirstProject.ValidateNavigation@3f6f6701]" name="cantactbtnTest" duration-ms="163" started-at="2020-08-06T10:24:25 IST" finished-at="2020-08-06T10:24:25 IST">
+        <test-method status="PASS" signature="cantactbtnTest()[pri:0, instance:MyFirstProject.ValidateNavigation@3f6f6701]" name="cantactbtnTest" duration-ms="194" started-at="2020-08-06T10:41:05 IST" finished-at="2020-08-06T10:41:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cantactbtnTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:MyFirstProject.ValidateNavigation@3f6f6701]" name="tearDown" is-config="true" duration-ms="452" started-at="2020-08-06T10:24:25 IST" finished-at="2020-08-06T10:24:25 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MyFirstProject.ValidateNavigation@3f6f6701]" name="tearDown" is-config="true" duration-ms="472" started-at="2020-08-06T10:41:06 IST" finished-at="2020-08-06T10:41:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

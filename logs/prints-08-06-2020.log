@@ -1,7 +1,7 @@
-10:23:45.363 [main] DEBUG MyFirstProject.ValidateNavigation - Click login button
-10:23:46.002 [main] DEBUG MyFirstProject.ValidateNavigation - Click on submit button
-10:23:48.500 [main] INFO  MyFirstProject.ValidateNavigation - url launch
-10:23:49.152 [main] DEBUG MyFirstProject.ValidateNavigation - Click login button
-10:23:49.822 [main] DEBUG MyFirstProject.ValidateNavigation - Click on submit button
-10:23:56.402 [main] INFO  MyFirstProject.ValidateTitle - initialization driver
-10:24:06.711 [main] INFO  MyFirstProject.ValidateTitle - url launch
+10:39:58.400 [main] DEBUG MyFirstProject.ValidateNavigation - Click login button
+10:39:59.302 [main] DEBUG MyFirstProject.ValidateNavigation - Click on submit button
+10:40:02.007 [main] INFO  MyFirstProject.ValidateNavigation - url launch
+10:40:03.022 [main] DEBUG MyFirstProject.ValidateNavigation - Click login button
+10:40:03.605 [main] DEBUG MyFirstProject.ValidateNavigation - Click on submit button
+10:40:14.744 [main] INFO  MyFirstProject.ValidateTitle - initialization driver
+10:40:41.701 [main] INFO  MyFirstProject.ValidateTitle - url launch
