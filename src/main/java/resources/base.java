@@ -2,14 +2,14 @@ package resources;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.logging.log4j.core.util.FileUtils;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -18,7 +18,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.io.FileHandler;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterTest;
+
+
 
 
 
@@ -69,6 +70,7 @@ if(browserName.equals("IE")) {
 			return destinationFile;
 		
 	} 
+		
 		@AfterClass
 		public void tearDown() {
 			
