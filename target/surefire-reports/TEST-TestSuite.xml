@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="95.097" tests="4" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="68.25" tests="4" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Umesh\AppData\Local\Temp\surefire1708881145311637456\surefirebooter3975991384619423783.jar C:\Users\Umesh\AppData\Local\Temp\surefire1708881145311637456 2020-08-06T18-13-41_042-jvmRun1 surefire4871353523922258120tmp surefire_0150500312082809386tmp"/>
+    <property name="sun.java.command" value="C:\Users\Umesh\AppData\Local\Temp\surefire8891382219458886359\surefirebooter2345846767864102577.jar C:\Users\Umesh\AppData\Local\Temp\surefire8891382219458886359 2020-08-06T18-31-56_851-jvmRun1 surefire350704059830498247tmp surefire_03833582201469470439tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\Umesh\eclipse-workspace\EndToEndTesting\target\test-classes;C:\Users\Umesh\eclipse-workspace\EndToEndTesting\target\classes;C:\Users\Umesh\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\Umesh\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;C:\Users\Umesh\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Umesh\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Umesh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Umesh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Umesh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Umesh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Umesh\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Umesh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Umesh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Umesh\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Umesh\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Umesh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Umesh\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Umesh\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Umesh\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Umesh\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Umesh\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Umesh\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Umesh\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Umesh\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Umesh\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\Umesh\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Umesh\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Umesh\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Umesh\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Umesh\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Umesh\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Umesh\.m2\repository\com\aventstack\extentreports\4.1.1\extentreports-4.1.1.jar;C:\Users\Umesh\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\Umesh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Umesh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Umesh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Umesh\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Umesh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Umesh\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Umesh\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\Umesh\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\Umesh\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Umesh"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Umesh\AppData\Local\Temp\surefire1708881145311637456\surefirebooter3975991384619423783.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Umesh\AppData\Local\Temp\surefire8891382219458886359\surefirebooter2345846767864102577.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,41 +61,41 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="basePageNavigation[abd@gmail.com, 123466](1)" classname="MyFirstProject.HomePage" time="20.853">
-    <system-out><![CDATA[2020-08-06 18:13:51,718 main ERROR Appenders contains an invalid element or attribute "resources"
+  <testcase name="basePageNavigation[abd@gmail.com, 123466](1)" classname="MyFirstProject.HomePage" time="14.625">
+    <system-out><![CDATA[2020-08-06 18:32:01,643 main ERROR Appenders contains an invalid element or attribute "resources"
 chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 41050
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 28296
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Aug 06, 2020 6:14:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 06, 2020 6:32:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="basePageNavigation[sjdjssjs@gmail.com, 12djsfsj3466](2)" classname="MyFirstProject.HomePage" time="5.346"/>
-  <testcase name="courseNameTest" classname="MyFirstProject.ValidateTitle" time="12.127">
+  <testcase name="basePageNavigation[sjdjssjs@gmail.com, 12djsfsj3466](2)" classname="MyFirstProject.HomePage" time="4.401"/>
+  <testcase name="courseNameTest" classname="MyFirstProject.ValidateTitle" time="7.783">
     <failure message="expected [FEATURED aCOURSES] but found [FEATURED COURSES]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [FEATURED aCOURSES] but found [FEATURED COURSES]
 	at MyFirstProject.ValidateTitle.courseNameTest(ValidateTitle.java:43)
 ]]></failure>
     <system-out><![CDATA[chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 23187
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 20629
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Aug 06, 2020 6:14:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 06, 2020 6:32:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="cantactbtnTest" classname="MyFirstProject.ValidateNavigation" time="0.168">
+  <testcase name="cantactbtnTest" classname="MyFirstProject.ValidateNavigation" time="0.008">
     <system-out><![CDATA[chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 6904
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 24336
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Aug 06, 2020 6:15:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 06, 2020 6:32:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

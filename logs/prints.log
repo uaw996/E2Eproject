@@ -1,0 +1,5 @@
+18:59:43.055 [main] INFO  MyFirstProject.ValidateTitle - initialization driver
+18:59:53.830 [main] INFO  MyFirstProject.ValidateTitle - url launch
+19:00:04.832 [main] INFO  MyFirstProject.ValidateNavigation - driver initialization
+19:00:16.845 [main] INFO  MyFirstProject.ValidateNavigation - url launch
+19:00:17.111 [main] DEBUG MyFirstProject.ValidateNavigation - successfully navigation button Displayed
