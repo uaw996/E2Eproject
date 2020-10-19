@@ -36,7 +36,7 @@ public class base {
 		System.out.println(browserName);
 		if(browserName.equals("chrome") ) {
 		//String ch=	System.getProperty("user.dir")+"\\drivers\\chromedriver.exe";
-			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\driver\\chromedriver.exe");
 	        driver = new ChromeDriver();
 			
 		}
